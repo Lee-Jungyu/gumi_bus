@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_arrival"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:paddingLeft="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_arrival_bus_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView_arrival_bus_route"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:textColor="#000088"
+            android:gravity="bottom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_arrival_remaining_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:gravity="right"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/textView_prev_station_cnt"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

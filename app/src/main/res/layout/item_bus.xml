@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_bus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/textView_bus_number"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_bus_start_station"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="#000077"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="⬇"
+            android:textSize="10dp"
+            android:gravity="right"/>
+
+        <TextView
+            android:id="@+id/textView_bus_end_station"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="#000088"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

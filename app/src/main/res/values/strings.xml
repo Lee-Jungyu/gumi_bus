@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">구미 버스</string>
+    <string-array name="tab_titles">
+        <item>즐겨찾기</item>
+        <item>정류장</item>
+        <item>노선</item>
+        <item>경로찾기</item>
+    </string-array>
+    <string name="odsay_key">your_odsay_key</string>
+    <string name="tago_api_key">your_api_key</string>
+    <string name="gumi_city_code">37050</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

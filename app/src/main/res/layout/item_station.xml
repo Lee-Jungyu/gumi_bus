@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_station"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_station_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView_station_number"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="15dp"
+        android:textColor="#444444"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>
