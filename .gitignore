@@ -15,5 +15,5 @@
 local.properties
 
 
-*/strings.xml
-*/google_maps_api.xml
+strings.xml
+google_maps_api.xml
