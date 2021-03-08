@@ -17,7 +17,7 @@
 - 구글 맵 api 키 발급
   - https://console.developers.google.com/
 
-5. key setting
+3. key setting
 
 - /app/src/main/res/values/string.xml
 - /app/src/debug/res/values/google_maps_api.xml
