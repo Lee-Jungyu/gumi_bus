@@ -1,4 +1,5 @@
 # gumi_bus
+구글 플레이 스토어 링크: https://play.google.com/store/apps/details?id=com.jglee.busapp
 
 ### 실행 순서
 
